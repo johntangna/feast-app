@@ -1,0 +1,33 @@
+{
+	"bsonType": "object",
+	"required": ["goods_id", "title", "goods"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（用户 ID），系统自动生成"
+		},
+		"goods_id": {
+			"bsonType": "int",
+			"label": "商品分类id",
+			"trim": "both"
+		},
+		"title": {
+			"bsonType": "string",
+			"description": "分类标题",
+			"label": "分类标题",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"description": "删除标记",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	},
+	"version": "0.0.1"
+}

@@ -1,0 +1,40 @@
+{
+	"bsonType": "object",
+	"required": ["color", "tabbar", "overall"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "唯一id"
+		},
+		"color": {
+			"bsonType": "object",
+			"description": "字体颜色",
+			"label": "颜色",
+			"trim": "both"
+		},
+		"tabbar": {
+			"bsonType": "object",
+			"description": "tabar的文字",
+			"label": "导航栏",
+			"trim": "both"
+		},
+		"overall": {
+			"bsonType":"object",
+			"description": "背景",
+			"label": "背景",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"description": "删除标记",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	},
+	"version": "0.0.1"
+}

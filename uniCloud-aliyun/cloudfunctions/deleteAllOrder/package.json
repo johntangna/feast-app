@@ -1,0 +1,7 @@
+{
+  "name": "deleteAllOrder",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"bsonType": "object",
+	"required": ["shop_name", "shop_address", "shop_phone", "shop_paypal"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "唯一id"
+		},
+		"shop_name": {
+			"bsonType": "string",
+			"description": "商店名字",
+			"label": "名字",
+			"trim": "both"
+		},
+		"shop_address": {
+			"bsonType": "string",
+			"description": "商店地址",
+			"label": "地址",
+			"trim": "both"
+		},
+		"shop_phone": {
+			"bsonType":"string",
+			"description": "商铺电话",
+			"label": "电话",
+			"trim": "both"
+		},
+		"shop_paypal": {
+			"bsonType":"string",
+			"description": "付款方式",
+			"label": "付款",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"description": "删除标记",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	},
+	"version": "0.0.1"
+}

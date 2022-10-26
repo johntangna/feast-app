@@ -1,0 +1,51 @@
+{
+	"bsonType": "object",
+	"required": ["user_number", "invote"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "唯一id"
+		},
+		"token": {
+			"bsonType": "string",
+			"description": "登录凭证",
+			"label": "登录凭证",
+			"trim": "both"
+		},
+		"wes_code": {
+			"bsonType": "string",
+			"description": "微信code",
+			"label": "微信code",
+			"trim": "both"
+		},
+		"user_name": {
+			"bsonType": "string",
+			"description": "用户姓名",
+			"label": "用户姓名",
+			"trim": "both"
+		},
+		"user_number": {
+			"bsonType": "int",
+			"description": "用户工号",
+			"label": "用户工号",
+			"trim": "both"
+		},
+		"invote": {
+			"bsonType": "bool",
+			"label": "今天是否投票",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"description": "删除标记",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	},
+	"version": "0.0.1"
+}

@@ -1,0 +1,70 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["good_details_id", "pic", "recom_status", "stock_number", "title", "introduce", "mini_price",
+		"specs_status"
+	],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"goods_details_id": {
+			"bsonType": "int",
+			"label": "商品详情id",
+			"trim": "both"
+		},
+		"fk_goods_id": {
+			"bsonType": "int",
+			"title": "商品id",
+			"description": "分类id",
+			"foreignKey": "bigmouth_goods.goods_id"
+		},
+		"pic": {
+			"bsonType": "string",
+			"label": "图片地址",
+			"trim": "both"
+		},
+		"recom_status": {
+			"bsonType": "bool",
+			"label": "是否热门",
+			"trim": "both"
+		},
+		"stock_number": {
+			"bsonType": "int",
+			"label": "库存数量",
+			"trim": "both"
+		},
+		"title": {
+			"bsonType": "string",
+			"label": "商品标题",
+			"trim": "both"
+		},
+		"introduce": {
+			"bsonType": "string",
+			"label": "商品介绍",
+			"trim": "both"
+		},
+		"mini_price": {
+			"bsonType": "string",
+			"label": "商品价格",
+			"trim": "both"
+		},
+		"specs_status": {
+			"bsonType": "bool",
+			"label": "是否有规格",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"description": "删除标记",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	}
+}

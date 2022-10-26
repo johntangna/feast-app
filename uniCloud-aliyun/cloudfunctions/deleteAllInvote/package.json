@@ -1,0 +1,7 @@
+{
+  "name": "deleteAllInvote",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

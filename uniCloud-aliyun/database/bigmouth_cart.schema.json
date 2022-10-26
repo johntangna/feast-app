@@ -1,0 +1,41 @@
+{
+	"bsonType": "object",
+	"required": [""],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "唯一id"
+		},
+		"id": {
+			"bsonType": "int",
+			"label": "id",
+			"trim": "both"
+		},
+		"title": {
+			"bsonType": "string",
+			"label": "预约单标题",
+			"trim": "both"
+		},
+		"mini_price": {
+			"bsonType": "string",
+			"label": "商品价格",
+			"trim": "both"
+		},
+		"shelve_status": {
+			"bsonType": "bool",
+			"label": "是否销售",
+			"trim": "both"
+		},
+		"num": {
+			"bsonType": "int",
+			"label": "购买数量",
+			"trim": "both"
+		}
+	},
+	"version": "0.0.1"
+}

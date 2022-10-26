@@ -1,0 +1,16 @@
+{
+	"passwordSecret": "cute_boby_ou_big_mouth",
+	"passwordStrength": "medium", // 密码强度，新增于 uni-id-pages 1.0.8版本，见下方说明
+	"tokenSecret": "", // 生成token所用的密钥，注意修改为自己的，使用一个较长的字符串即可
+	"tokenExpiresIn": 7200, // 全平台token过期时间，未指定过期时间的平台会使用此值
+	"tokenExpiresThreshold": 600,
+	"mp-weixin": {
+		"tokenExpiresIn": 259200,
+		"oauth": {
+			"weixin": {
+				"appid": "wx31af5dae3e86e8c4",
+				"appsecret": "f601211b95fa7e5a1bae8af86f26b6a6"
+			}
+		}
+	}
+}

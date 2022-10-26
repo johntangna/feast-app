@@ -1,0 +1,88 @@
+{
+	"goods_details_id": 1,
+	"fk_goods_id": 1,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "长寿面",
+	"introduce": "此面食可以延年益寿",
+	"mini_price": "99.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 2,
+	"fk_goods_id": 1,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "齐天寿面",
+	"introduce": "此面食可以洪福齐天",
+	"mini_price": "999.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 3,
+	"fk_goods_id": 2,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "唐僧肉",
+	"introduce": "此肉可以永生",
+	"mini_price": "9999.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 4,
+	"fk_goods_id": 2,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "悟空肉",
+	"introduce": "此肉可能有点硌牙",
+	"mini_price": "9999.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 5,
+	"fk_goods_id": 3,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "一穷二白",
+	"introduce": "就是豆腐加大葱",
+	"mini_price": "9.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 6,
+	"fk_goods_id": 3,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "咸吃萝卜淡操心",
+	"introduce": "虽然咸点，但肯定齁嗓子",
+	"mini_price": "19.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 7,
+	"fk_goods_id": 4,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "尊贵帝王牛蛙",
+	"introduce": "传说这牛蛙曾经当过蛙锅帝王",
+	"mini_price": "29.00",
+	"specs_status": false
+}
+{
+	"goods_details_id": 8,
+	"fk_goods_id": 4,
+	"pic": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-3d794d5a-3930-4d13-aa44-0875a07d7573/8e668638-b21a-452d-8435-c3e3407e6d44.jpg",
+	"recom_status": false,
+	"stock_number": 999,
+	"title": "黄豆对热水",
+	"introduce": "此方李时珍曾经赞不绝口",
+	"mini_price": "78.00",
+	"specs_status": false
+}

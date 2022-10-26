@@ -1,0 +1,56 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["order_id"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"order_id": {
+			"bsonType": "int",
+			"label": "订单id",
+			"trim": "both"
+		},
+		"fk_user_number": {
+			"bsonType": "int",
+			"label": "客户id",
+			"foreignKey": "bigmouth_userinfo.user_number"
+		},
+		"order_status": {
+			"bsonType": "int",
+			"label": "订单状态",
+			"trim": "both"
+		},
+		"delivery_type": {
+			"bsonType": "int",
+			"label": "配送方式",
+			"trim": "both"
+		},
+		"order_remark": {
+			"bsonType": "string",
+			"label": "订单备注",
+			"trim": "both"
+		},
+		"create_time": {
+			"bsonType": "string",
+			"label": "订单创建时间",
+			"trim": "both"
+		},
+		"time": {
+			"bsonType": "timestamp",
+			"label": "订单时间戳",
+			"trim": "both"
+		},
+		"order_details": {
+			"bsonType": "array",
+			"arrayType": "object",
+			"label": "订单详情"
+		}
+	}
+}

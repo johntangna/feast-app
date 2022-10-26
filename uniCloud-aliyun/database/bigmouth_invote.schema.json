@@ -1,0 +1,48 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["invote_goods_name",
+		"invote_goods_details_id, invote_number"
+	],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"invote_goods_name": {
+			"bsonType": "string",
+			"label": "投票商品名称",
+			"trim": "both"
+		},
+		"invote_goods_details_id": {
+			"bsonType": "int",
+			"label": "投票商品id",
+			"trim": "both"
+		},
+		"invote_number": {
+			"bsonType": "int",
+			"label": "投票票数",
+			"trim": "both"
+		},
+		"invote_good_price": {
+			"bsonType": "string",
+			"label": "商品价格",
+			"trim": "both"
+		},
+		"invote_pic": {
+			"bsonType": "string",
+			"label": "投票商品图片",
+			"trim": "both"
+		},
+		"del": {
+			"bsonType": "int",
+			"label": "删除标记",
+			"trim": "both"
+		}
+	}
+}

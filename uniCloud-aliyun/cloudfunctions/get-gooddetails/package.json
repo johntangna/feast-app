@@ -1,0 +1,7 @@
+{
+  "name": "get-gooddetails",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
