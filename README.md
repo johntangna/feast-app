@@ -1,7 +1,7 @@
 # 公司内部使用餐厅小程序-集成钉钉登录
 
 
-> [后台维护页面](https://bigeater.onmouse.cn/#/pages/admin/index)
+> [后台维护页面（启动项目后缀加上此链接）](/pages/admin/index)
 
 已经实现可以使用XML语法支持前端文件下载，下载格式为xml，该格式可以兼容打开excel
 
@@ -9,8 +9,6 @@
 
 > [后台云开发管理地址#](https://unicloud.dcloud.net.cn/)
 
-**账号**：1092473788@qq.com
-**密码**：WANG15050925611
 
 
 > 图片上传服务器，由于考虑到系统设计的复杂性，所以使用简单方案处理，如果想自己实现，可以根据情况，使用指定文件服务器拉取文件列表
@@ -38,4 +36,4 @@ __未使用库__
 
 ## Thanks
 
-改代码集成的效果，是基于此[源码库](https://github.com/WHaveFun/yipin.git)，由于是学习使用，谨表示感谢此源码库
+该代码集成的效果，是基于此[源码库](https://github.com/WHaveFun/yipin.git)，由于是学习使用，谨表示感谢此源码库
